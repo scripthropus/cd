@@ -1,5 +1,5 @@
-import Image from "next/image";
+import UserIcon from "./components/UserIcon";
 
 export default function Home() {
-	return <div>hello</div>;
+	return <UserIcon />;
 }
