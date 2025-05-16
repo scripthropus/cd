@@ -1,5 +1,9 @@
-import UserIcon from "./components/UserIcon";
+import AppHeader from "./components/AppHeader";
 
 export default function Home() {
-	return <UserIcon />;
+	return (
+		<>
+			<AppHeader />
+		</>
+	);
 }
